@@ -6,6 +6,8 @@ import "./index.css";
 import Root from "./Components/Root.jsx";
 import ErrorPage from "./Components/ErrorPage.jsx";
 import Home from "./Components/Home.jsx";
+import Dashboard from "./Components/Dashboard.jsx";
+import Statistics from "./Components/Statistics.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>,
       },
     ],
   },

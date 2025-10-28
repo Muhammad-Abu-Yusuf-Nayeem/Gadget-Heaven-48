@@ -1,8 +1,67 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = ({ color }) => {
+  const location = useLocation();
+  const links = (
+    <>
+      <li>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            location.pathname === "/"
+              ? `${color} underline font-bold text-[16px]`
+              : isActive
+              ? "underline font-bold text-[16px]"
+              : "text-gray-500 font-semibold text-[16px]"
+          }
+        >
+          Home
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/statistics"
+          className={({ isActive }) =>
+            location.pathname === "/"
+              ? `${color} text-[16px]`
+              : isActive
+              ? "underline font-bold text-[#9538E2] text-[16px]"
+              : "text-gray-500 font-semibold text-[16px]"
+          }
+        >
+          Statistics
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/dashboard"
+          className={({ isActive }) =>
+            location.pathname === "/"
+              ? `${color} text-[16px]`
+              : isActive
+              ? "underline font-bold text-[#9538E2] text-[16px]"
+              : "text-gray-500 font-semibold text-[16px]"
+          }
+        >
+          Dashboard
+        </NavLink>
+      </li>
+      {/* <li>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "text-white underline font-bold " : "text-[#9538E2]"
+          }
+        >
+          Item 3
+        </NavLink>
+      </li> */}
+    </>
+  );
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,52 +85,55 @@ const NavBar = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+
+        <Link
+          to="/"
+          className={
+            location.pathname === "/"
+              ? "text-white font-bold text-2xl"
+              : "font-bold text-2xl"
+          }
+        >
+          Gadget Heaven
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
-        </ul>
+        <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end gap-2">
+        <Link
+          to="/"
+          className={
+            location.pathname === "/"
+              ? "bg-white rounded-full border-gray-200 border p-2 "
+              : "rounded-full border-gray-200 border p-2  "
+          }
+        >
+          <img
+            width="20"
+            height="20"
+            src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png"
+            alt="shopping-cart--v1"
+          />
+        </Link>
+        <Link
+          to="/"
+          className={
+            location.pathname === "/"
+              ? "bg-white rounded-full border-gray-200 border p-2 "
+              : "rounded-full border-gray-200 border p-2  "
+          }
+        >
+          <img
+            width="20"
+            height="20"
+            src="https://img.icons8.com/material-outlined/24/filled-like.png"
+            alt="filled-like"
+          />
+        </Link>
       </div>
     </div>
   );
