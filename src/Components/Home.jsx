@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import { Link } from "react-router-dom";
 import banner from "../assets/banner.jpg";
 import ProductCategories from "./ProductCategories";
+import GadgetCards from "./GadgetCards";
 
 const Home = () => {
   return (
@@ -33,7 +34,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div><ProductCategories/></div>
+      <div><ProductCategories /></div>
+      <div><GadgetCards></GadgetCards></div>
     </main>
   );
 };

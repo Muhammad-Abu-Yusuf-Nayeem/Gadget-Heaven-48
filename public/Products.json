@@ -1,0 +1,587 @@
+[
+  {
+    "product_id": "IPH-001",
+    "product_title": "iPhone 16 Pro Max",
+    "product_image": "https://example.com/images/iphone16promax.jpg",
+    "category": "Smartphone",
+    "price": 159000,
+    "description": "The iPhone 16 Pro Max redefines power and design with the A18 Pro chip, titanium body, and an advanced triple-camera system for professional photography.",
+    "specification": [
+      "Display: 6.9-inch Super Retina XDR (120Hz)",
+      "Processor: A18 Pro Bionic Chip",
+      "RAM: 8GB",
+      "Storage: 256GB / 512GB / 1TB",
+      "Camera: 48MP Main, 12MP Ultra-Wide, 12MP Telephoto",
+      "Battery: 4500 mAh with 30W fast charging",
+      "OS: iOS 18",
+      "Connectivity: 5G, Wi-Fi 6E, Bluetooth 5.4",
+      "Material: Titanium Frame"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "color_options": ["Natural Titanium", "Black Titanium", "White Titanium", "Desert Gold"],
+    "warranty": "1 Year Apple Warranty"
+  },
+  {
+    "product_id": "IPH-002",
+    "product_title": "iPhone 16 Pro",
+    "product_image": "https://example.com/images/iphone16pro.jpg",
+    "category": "Smartphone",
+    "price": 1399,
+    "description": "Compact yet powerful, iPhone 16 Pro packs the same A18 Pro chip and triple-camera array in a smaller titanium frame.",
+    "specification": [
+      "Display: 6.3-inch Super Retina XDR",
+      "Processor: A18 Pro Bionic Chip",
+      "RAM: 8GB",
+      "Storage: 128GB / 256GB / 512GB",
+      "Camera: 48MP + 12MP + 12MP",
+      "Battery: 4200 mAh with MagSafe",
+      "OS: iOS 18",
+      "Build: Titanium Frame, Ceramic Shield Glass"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "color_options": ["Graphite", "Silver", "Blue Titanium"],
+    "warranty": "1 Year Apple Warranty"
+  },
+  {
+    "product_id": "IPH-003",
+    "product_title": "iPhone 16",
+    "product_image": "https://example.com/images/iphone16.jpg",
+    "category": "Smartphone",
+    "price": 1099,
+    "description": "iPhone 16 delivers flagship performance in a sleek aluminum design with the powerful A17 Bionic chip.",
+    "specification": [
+      "Display: 6.1-inch OLED",
+      "Processor: A17 Bionic Chip",
+      "RAM: 6GB",
+      "Storage: 128GB / 256GB",
+      "Camera: Dual 48MP + 12MP",
+      "Battery: 4000 mAh with MagSafe",
+      "OS: iOS 18",
+      "Material: Aluminum and Glass"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "color_options": ["Midnight", "Starlight", "Product Red", "Blue"],
+    "warranty": "1 Year Apple Warranty"
+  },
+  {
+    "product_id": "IPH-004",
+    "product_title": "iPhone 15 Pro Max",
+    "product_image": "https://example.com/images/iphone15promax.jpg",
+    "category": "Smartphone",
+    "price": 1399,
+    "description": "iPhone 15 Pro Max introduces the A17 Pro chip with pro-level gaming performance and the first 5x optical zoom on iPhone.",
+    "specification": [
+      "Display: 6.7-inch Super Retina XDR",
+      "Processor: A17 Pro Chip",
+      "RAM: 8GB",
+      "Storage: 256GB / 512GB / 1TB",
+      "Camera: 48MP Main, 12MP Ultra-Wide, 12MP Telephoto (5x Optical Zoom)",
+      "Battery: 4350 mAh with USB-C",
+      "OS: iOS 17",
+      "Material: Titanium Frame"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "color_options": ["Natural Titanium", "Blue Titanium", "White Titanium"],
+    "warranty": "1 Year Apple Warranty"
+  },
+  {
+    "product_id": "IPH-005",
+    "product_title": "iPhone 15",
+    "product_image": "https://example.com/images/iphone15.jpg",
+    "category": "Smartphone",
+    "price": 899,
+    "description": "iPhone 15 delivers great performance with A16 Bionic chip, Dynamic Island, and advanced dual-camera system.",
+    "specification": [
+      "Display: 6.1-inch Super Retina XDR",
+      "Processor: A16 Bionic Chip",
+      "RAM: 6GB",
+      "Storage: 128GB / 256GB",
+      "Camera: 48MP + 12MP",
+      "Battery: 3900 mAh",
+      "OS: iOS 17",
+      "Connectivity: 5G, MagSafe, USB-C"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "color_options": ["Pink", "Yellow", "Green", "Blue", "Black"],
+    "warranty": "1 Year Apple Warranty"
+  },
+  {
+    "product_id": "IPH-006",
+    "product_title": "iPhone SE (3rd Generation)",
+    "product_image": "https://example.com/images/iphonese3.jpg",
+    "category": "Smartphone",
+    "price": 499,
+    "description": "Compact and powerful, iPhone SE (3rd Gen) offers A15 Bionic performance and 5G speed at an affordable price.",
+    "specification": [
+      "Display: 4.7-inch Retina HD",
+      "Processor: A15 Bionic Chip",
+      "RAM: 4GB",
+      "Storage: 64GB / 128GB / 256GB",
+      "Camera: 12MP Rear, 7MP Front",
+      "Battery: 3000 mAh",
+      "OS: iOS 17",
+      "Build: Aluminum and Glass"
+    ],
+    "availability": false,
+    "rating": 4.2,
+    "color_options": ["Midnight", "Starlight", "Product Red"],
+    "warranty": "1 Year Apple Warranty"
+  },
+
+  {
+    "product_id": "LAP-001",
+    "product_title": "MacBook Pro 16-inch (M3 Max)",
+    "product_image": "https://example.com/images/macbookpro16m3max.jpg",
+    "category": "Laptop",
+    "price": 3499,
+    "description": "The MacBook Pro 16-inch with M3 Max redefines professional performance with a 16-core CPU, 40-core GPU, and a stunning Liquid Retina XDR display.",
+    "specification": [
+      "Display: 16.2-inch Liquid Retina XDR (3456x2234)",
+      "Processor: Apple M3 Max (16-core CPU, 40-core GPU)",
+      "RAM: 48GB Unified Memory",
+      "Storage: 1TB SSD",
+      "Battery: 100Wh, up to 22 hours",
+      "Weight: 2.14 kg",
+      "Ports: 3x Thunderbolt 4, HDMI, SDXC, MagSafe 3",
+      "OS: macOS Sequoia"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "color_options": ["Space Black", "Silver"],
+    "warranty": "1 Year Apple Warranty + AppleCare+ Option"
+  },
+  {
+    "product_id": "LAP-002",
+    "product_title": "Dell XPS 15 (2025)",
+    "product_image": "https://example.com/images/dellxps15.jpg",
+    "category": "Laptop",
+    "price": 2299,
+    "description": "The Dell XPS 15 blends power and design, featuring a 14th Gen Intel Core i9 processor and RTX 4070 graphics for creators and professionals.",
+    "specification": [
+      "Display: 15.6-inch OLED 4K (3840x2160)",
+      "Processor: Intel Core i9-14900H (14th Gen)",
+      "GPU: NVIDIA RTX 4070 (8GB GDDR6)",
+      "RAM: 32GB DDR5 5200MHz",
+      "Storage: 1TB NVMe SSD",
+      "Battery: 86Wh, up to 13 hours",
+      "Weight: 1.9 kg",
+      "OS: Windows 11 Pro"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "color_options": ["Platinum Silver", "Graphite Black"],
+    "warranty": "2 Years Premium Support"
+  },
+  {
+    "product_id": "LAP-003",
+    "product_title": "ASUS ROG Zephyrus G16 (2025)",
+    "product_image": "https://example.com/images/asusrogzephyrusg16.jpg",
+    "category": "Laptop",
+    "price": 1999,
+    "description": "The ROG Zephyrus G16 is a gaming powerhouse with Intel Core i9, RTX 4080, and a 240Hz QHD+ display — designed for both gamers and creators.",
+    "specification": [
+      "Display: 16-inch QHD+ 240Hz IPS",
+      "Processor: Intel Core i9-14900HX",
+      "GPU: NVIDIA GeForce RTX 4080 (12GB GDDR6)",
+      "RAM: 32GB DDR5",
+      "Storage: 1TB PCIe 4.0 SSD",
+      "Battery: 90Wh, Type-C Fast Charging",
+      "Weight: 2.1 kg",
+      "OS: Windows 11 Home"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "color_options": ["Eclipse Gray", "White Moonlight"],
+    "warranty": "2 Years International Warranty"
+  },
+  {
+    "product_id": "LAP-004",
+    "product_title": "HP Spectre x360 14 (2025)",
+    "product_image": "https://example.com/images/hpspectrex36014.jpg",
+    "category": "Laptop",
+    "price": 1599,
+    "description": "The HP Spectre x360 14 combines performance and flexibility with a 2-in-1 OLED touchscreen, ideal for creators and professionals on the move.",
+    "specification": [
+      "Display: 13.5-inch 2.8K OLED Touchscreen",
+      "Processor: Intel Core Ultra 7 155H",
+      "RAM: 16GB LPDDR5",
+      "Storage: 1TB SSD",
+      "Battery: 66Wh, 15-hour backup",
+      "Weight: 1.4 kg",
+      "Features: 360° Hinge, Stylus Support, Fingerprint Sensor",
+      "OS: Windows 11 Home"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "color_options": ["Nightfall Black", "Nocturne Blue"],
+    "warranty": "1 Year Warranty with Accidental Damage Protection"
+  },
+  {
+    "product_id": "LAP-005",
+    "product_title": "Lenovo ThinkPad X1 Carbon Gen 12",
+    "product_image": "https://example.com/images/thinkpadx1carbon12.jpg",
+    "category": "Laptop",
+    "price": 1899,
+    "description": "ThinkPad X1 Carbon Gen 12 delivers business-class durability and performance with Intel Core Ultra processors and a featherlight carbon-fiber chassis.",
+    "specification": [
+      "Display: 14-inch 2.8K OLED (2880x1800)",
+      "Processor: Intel Core Ultra 7 165H",
+      "RAM: 32GB LPDDR5x",
+      "Storage: 1TB SSD",
+      "Battery: 57Wh, Rapid Charge",
+      "Weight: 1.12 kg",
+      "Build: Carbon Fiber + Magnesium Alloy",
+      "OS: Windows 11 Pro"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "color_options": ["Matte Black"],
+    "warranty": "3 Years Onsite Warranty"
+  },
+  {
+    "product_id": "LAP-006",
+    "product_title": "Acer Aspire 5 (Ryzen 7 7730U)",
+    "product_image": "https://example.com/images/aceraspire5.jpg",
+    "category": "Laptop",
+    "price": 749,
+    "description": "Acer Aspire 5 offers solid everyday performance with AMD Ryzen 7, ample storage, and a sleek aluminum chassis at a budget-friendly price.",
+    "specification": [
+      "Display: 15.6-inch Full HD IPS",
+      "Processor: AMD Ryzen 7 7730U",
+      "GPU: AMD Radeon Integrated Graphics",
+      "RAM: 16GB DDR4",
+      "Storage: 512GB SSD",
+      "Battery: 50Wh, up to 10 hours",
+      "Weight: 1.8 kg",
+      "OS: Windows 11 Home"
+    ],
+    "availability": false,
+    "rating": 4.3,
+    "color_options": ["Steel Gray", "Silver"],
+    "warranty": "1 Year Local Warranty"
+  },
+
+
+
+  {
+    "product_id": "SW-001",
+    "product_title": "Apple Watch Ultra 2",
+    "product_image": "https://example.com/images/applewatchultra2.jpg",
+    "category": "Smartwatch",
+    "price": 799,
+    "description": "Engineered for endurance, Apple Watch Ultra 2 features a titanium case, the brightest display yet, and precision dual-frequency GPS for extreme adventures.",
+    "specification": [
+      "Display: 1.92-inch Always-On Retina LTPO OLED (3000 nits)",
+      "Chipset: Apple S9 SiP with 4-core Neural Engine",
+      "Storage: 64GB",
+      "Connectivity: GPS + Cellular, Wi-Fi, Bluetooth 5.3",
+      "Battery: Up to 36 hours (72 hours in Low Power Mode)",
+      "Water Resistance: 100m (WR100)",
+      "Sensors: Blood Oxygen, ECG, Temperature, Compass, Altimeter",
+      "Material: Titanium Case with Sapphire Crystal"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "color_options": ["Natural Titanium", "Ocean Band Blue", "Trail Loop Orange"],
+    "warranty": "1 Year Apple Warranty"
+  },
+  {
+    "product_id": "SW-002",
+    "product_title": "Samsung Galaxy Watch 7 Ultra",
+    "product_image": "https://example.com/images/galaxywatch7ultra.jpg",
+    "category": "Smartwatch",
+    "price": 699,
+    "description": "Galaxy Watch 7 Ultra combines durability with advanced AI health tracking and a vibrant AMOLED display for fitness and productivity.",
+    "specification": [
+      "Display: 1.5-inch Super AMOLED Always-On",
+      "Processor: Exynos W1000 (5-core)",
+      "RAM: 2GB",
+      "Storage: 32GB",
+      "Battery: 590mAh, 3-day backup",
+      "Connectivity: Bluetooth 5.3, Wi-Fi, LTE, NFC",
+      "Sensors: BioActive Sensor (ECG, Heart Rate, SpO2)",
+      "Material: Titanium Frame, Sapphire Glass"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "color_options": ["Titanium Gray", "Silver", "Orange"],
+    "warranty": "1 Year Samsung Warranty"
+  },
+  {
+    "product_id": "SW-003",
+    "product_title": "Google Pixel Watch 2",
+    "product_image": "https://example.com/images/pixelwatch2.jpg",
+    "category": "Smartwatch",
+    "price": 399,
+    "description": "Pixel Watch 2 enhances wellness tracking with Fitbit integration, stress tracking, and adaptive battery performance powered by Wear OS 4.",
+    "specification": [
+      "Display: 1.2-inch AMOLED (1000 nits)",
+      "Processor: Qualcomm SW5100 + Cortex M33 co-processor",
+      "RAM: 2GB",
+      "Storage: 32GB eMMC",
+      "Battery: 306mAh (24 hours typical use)",
+      "Connectivity: LTE, Wi-Fi, NFC, GPS",
+      "Sensors: ECG, Heart Rate, SpO2, Skin Temperature",
+      "Material: Aluminum Case, Corning Gorilla Glass 5"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "color_options": ["Matte Black", "Champagne Gold", "Polished Silver"],
+    "warranty": "1 Year Google Warranty"
+  },
+  {
+    "product_id": "SW-004",
+    "product_title": "Garmin Fenix 8 Sapphire Solar",
+    "product_image": "https://example.com/images/garminfenix8.jpg",
+    "category": "Smartwatch",
+    "price": 999,
+    "description": "Built for explorers, Garmin Fenix 8 Sapphire Solar features multi-band GPS, solar charging, and topographic maps in a rugged titanium frame.",
+    "specification": [
+      "Display: 1.4-inch Sapphire AMOLED",
+      "Battery: Up to 35 days (Solar Mode)",
+      "Connectivity: GPS, GLONASS, Galileo, Bluetooth, ANT+",
+      "Sensors: Heart Rate, Pulse OX, Altimeter, Barometer, Compass",
+      "Material: Titanium Bezel with Sapphire Lens",
+      "Durability: MIL-STD-810G certified",
+      "Water Resistance: 10 ATM"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "color_options": ["Titanium Gray", "Carbon Black"],
+    "warranty": "2 Years International Warranty"
+  },
+  {
+    "product_id": "SW-005",
+    "product_title": "Amazfit Balance",
+    "product_image": "https://example.com/images/amazfitbalance.jpg",
+    "category": "Smartwatch",
+    "price": 249,
+    "description": "Amazfit Balance delivers comprehensive health insights, dual-band GPS, and Alexa built-in, all in a lightweight aluminum body.",
+    "specification": [
+      "Display: 1.5-inch AMOLED (480x480)",
+      "Battery: 475mAh, up to 14 days typical use",
+      "Processor: Zepp OS 3.0",
+      "Connectivity: Dual-band GPS, Wi-Fi, Bluetooth 5.3, NFC",
+      "Sensors: Heart Rate, SpO2, Stress, Sleep, PAI Score",
+      "Water Resistance: 5 ATM",
+      "Weight: 35g (without strap)"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "color_options": ["Midnight Black", "Sunset Grey", "Ocean Blue"],
+    "warranty": "1 Year Local Warranty"
+  },
+  {
+    "product_id": "SW-006",
+    "product_title": "Fitbit Versa 5",
+    "product_image": "https://example.com/images/fitbitversa5.jpg",
+    "category": "Smartwatch",
+    "price": 229,
+    "description": "Fitbit Versa 5 offers all-day activity tracking, sleep monitoring, and voice assistant support with a lightweight and comfortable design.",
+    "specification": [
+      "Display: 1.58-inch AMOLED",
+      "Battery: Up to 6 days",
+      "Connectivity: Bluetooth 5.2, Wi-Fi, GPS, NFC",
+      "Sensors: Heart Rate, SpO2, Skin Temp, Stress Management",
+      "Weight: 37g",
+      "Water Resistance: 5 ATM",
+      "Compatibility: Android & iOS"
+    ],
+    "availability": false,
+    "rating": 4.3,
+    "color_options": ["Graphite Black", "Waterfall Blue", "Pink Sand"],
+    "warranty": "1 Year Fitbit Warranty"
+  },
+
+
+  {
+    "product_id": "ACC-001",
+    "product_title": "Apple AirPods Pro (2nd Gen)",
+    "product_image": "https://example.com/images/airpodspro2.jpg",
+    "category": "Accessories",
+    "price": 249,
+    "description": "Active Noise Cancellation and adaptive transparency meet spatial audio with precision tracking for immersive sound.",
+    "specification": [
+      "Chip: Apple H2",
+      "Battery: Up to 6 hours listening (30 hours with case)",
+      "Connectivity: Bluetooth 5.3",
+      "Features: ANC, Adaptive EQ, Spatial Audio, MagSafe Charging",
+      "Compatibility: iOS & macOS devices"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "color_options": ["White"],
+    "warranty": "1 Year Apple Warranty"
+  },
+  {
+    "product_id": "ACC-002",
+    "product_title": "Samsung 45W Super Fast Charger",
+    "product_image": "https://example.com/images/samsung45wcharger.jpg",
+    "category": "Accessories",
+    "price": 59,
+    "description": "Charge your Samsung devices up to 50% in just 20 minutes with USB-C PD 3.0 and PPS technology.",
+    "specification": [
+      "Output: 45W USB-C PD 3.0",
+      "Input: 100–240V AC",
+      "Cable: 1.8m USB-C to USB-C",
+      "Safety: Overheat & Overcurrent Protection"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "color_options": ["Black", "White"],
+    "warranty": "6 Months Manufacturer Warranty"
+  },
+  {
+    "product_id": "ACC-003",
+    "product_title": "Logitech MX Master 3S Wireless Mouse",
+    "product_image": "https://example.com/images/logitechmxmaster3s.jpg",
+    "category": "Accessories",
+    "price": 119,
+    "description": "Ergonomic wireless mouse with ultra-quiet clicks, MagSpeed scroll, and multi-device connectivity via Bluetooth or USB receiver.",
+    "specification": [
+      "Sensor: Darkfield 8000 DPI",
+      "Battery: Rechargeable Li-Po (up to 70 days)",
+      "Connectivity: Bluetooth / Logi Bolt USB",
+      "Features: Customizable Buttons, Fast Scroll, Flow Control"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "color_options": ["Graphite", "Pale Gray"],
+    "warranty": "1 Year Logitech Warranty"
+  },
+  {
+    "product_id": "ACC-004",
+    "product_title": "Anker PowerCore 10000mAh Portable Charger",
+    "product_image": "https://example.com/images/ankerpowercore10000.jpg",
+    "category": "Accessories",
+    "price": 39,
+    "description": "Compact yet powerful 10000mAh power bank for smartphones and tablets with Anker’s PowerIQ fast-charging technology.",
+    "specification": [
+      "Capacity: 10000mAh",
+      "Input: 5V/2A",
+      "Output: 5V/2.4A",
+      "Ports: 1x USB-A, 1x Micro-USB",
+      "Features: Overcharge Protection, LED Indicator"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "color_options": ["Black", "White", "Navy Blue"],
+    "warranty": "18 Months Manufacturer Warranty"
+  },
+  {
+    "product_id": "ACC-005",
+    "product_title": "Apple MagSafe Charger",
+    "product_image": "https://example.com/images/magsafecharger.jpg",
+    "category": "Accessories",
+    "price": 49,
+    "description": "Perfectly aligned wireless charging for iPhone and AirPods with MagSafe support, offering up to 15W of power.",
+    "specification": [
+      "Output: Up to 15W",
+      "Connector: USB-C",
+      "Cable Length: 1m",
+      "Compatibility: iPhone 12 and later, AirPods Pro 2"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "color_options": ["Silver"],
+    "warranty": "1 Year Apple Warranty"
+  },
+  {
+    "product_id": "ACC-006",
+    "product_title": "Sony WH-1000XM5 Wireless Headphones",
+    "product_image": "https://example.com/images/sonywh1000xm5.jpg",
+    "category": "Accessories",
+    "price": 399,
+    "description": "Industry-leading noise cancellation, adaptive sound control, and up to 30 hours of battery life for premium audio experience.",
+    "specification": [
+      "Drivers: 30mm Carbon Composite",
+      "Battery: Up to 30 hours playback",
+      "Charging: USB-C (3 min = 3 hours playback)",
+      "Connectivity: Bluetooth 5.2, LDAC, Multipoint",
+      "Features: ANC, Ambient Mode, Voice Assistant"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "color_options": ["Black", "Silver", "Midnight Blue"],
+    "warranty": "1 Year Sony Warranty"
+  },
+  {
+    "product_id": "ACC-007",
+    "product_title": "Keychron K6 Wireless Mechanical Keyboard",
+    "product_image": "https://example.com/images/keychronk6.jpg",
+    "category": "Accessories",
+    "price": 89,
+    "description": "Compact 65% wireless mechanical keyboard with hot-swappable keys and RGB backlight for work and gaming.",
+    "specification": [
+      "Switches: Gateron Red / Brown / Blue",
+      "Connectivity: Bluetooth 5.1 & USB-C",
+      "Battery: 4000mAh (up to 72 hours)",
+      "Backlight: RGB Customizable",
+      "Layout: 68 Keys Compact"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "color_options": ["Black", "White"],
+    "warranty": "1 Year Limited Warranty"
+  },
+  {
+    "product_id": "ACC-008",
+    "product_title": "Ugreen USB-C 6-in-1 Hub",
+    "product_image": "https://example.com/images/ugreenusbhub.jpg",
+    "category": "Accessories",
+    "price": 59,
+    "description": "Expand your laptop’s capabilities with HDMI, USB-A, SD/TF card readers, and fast data transfer up to 5Gbps.",
+    "specification": [
+      "Ports: 1x HDMI (4K@60Hz), 2x USB 3.0, SD/TF Card Reader, USB-C PD",
+      "Material: Aluminum Alloy",
+      "Compatibility: macOS, Windows, Android",
+      "Cable Length: 15cm"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "color_options": ["Gray"],
+    "warranty": "1 Year Ugreen Warranty"
+  },
+  {
+    "product_id": "ACC-009",
+    "product_title": "Belkin BoostCharge Pro 3-in-1 Wireless Charger",
+    "product_image": "https://example.com/images/belkinboostcharge3in1.jpg",
+    "category": "Accessories",
+    "price": 149,
+    "description": "Charge iPhone, Apple Watch, and AirPods simultaneously with this MagSafe-certified 3-in-1 charging stand.",
+    "specification": [
+      "Output: 15W (iPhone), 5W (AirPods), Fast Charging (Watch)",
+      "Connector: USB-C",
+      "Cable Length: 1.2m",
+      "Material: Aluminum + Soft Silicone"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "color_options": ["Black", "White"],
+    "warranty": "2 Years Belkin Warranty"
+  },
+  {
+    "product_id": "ACC-010",
+    "product_title": "Sandisk Extreme Pro 1TB Portable SSD",
+    "product_image": "https://example.com/images/sandiskextremepro1tb.jpg",
+    "category": "Accessories",
+    "price": 179,
+    "description": "Blazing-fast portable SSD with USB 3.2 Gen 2x2 delivering up to 2000MB/s transfer speeds in a rugged aluminum chassis.",
+    "specification": [
+      "Capacity: 1TB",
+      "Interface: USB 3.2 Gen 2x2 (Type-C)",
+      "Speed: Up to 2000MB/s",
+      "Durability: IP55 Water & Dust Resistant",
+      "Compatibility: Windows, macOS, Android"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "color_options": ["Black", "Red Trim"],
+    "warranty": "5 Years Limited Warranty"
+  }
+]
