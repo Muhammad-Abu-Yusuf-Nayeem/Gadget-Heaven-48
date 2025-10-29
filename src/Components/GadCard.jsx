@@ -3,7 +3,7 @@ import React from "react";
 const GadCard = ({ product }) => {
   const { product_title, product_image, price } = product;
   return (
-    <div className="  rounded-xl shadow-xl p-4">
+    <div className="  rounded-xl shadow-xl p-4 border border-gray-200 ">
       <div className="rounded-lg flex justify-center items-center p-4 ">
         <img
           className="mx-auto rounded-lg h-40"

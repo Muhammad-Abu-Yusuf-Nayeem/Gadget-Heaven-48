@@ -8,8 +8,8 @@ import GadgetCards from "./GadgetCards";
 
 const Home = () => {
   return (
-    <main>
-      {/* <div className="flex">
+    <main className="pb-24 bg-base-200">
+      <div className="flex">
         <div className=" bg-[#9538E2] w-full mx-6 rounded-2xl mb-148">
           <div className="hero-content text-center flex flex-col mx-auto relative pb-76">
             <NavBar color="text-white font-semibold" className="">
@@ -33,9 +33,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div> */}
-      {/* <div><ProductCategories /></div> */}
-      <div><GadgetCards></GadgetCards></div>
+      </div>
+      <div className="flex px-20 align-center ">
+        <ProductCategories />
+
+        <GadgetCards></GadgetCards>
+      </div>
     </main>
   );
 };

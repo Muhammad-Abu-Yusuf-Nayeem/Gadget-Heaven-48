@@ -13,7 +13,7 @@ const GadgetCards = () => {
 
   // console.log(data); // Log the fetched data to verify
 
-  return <div className="grid grid-cols-4 gap-6">
+  return <div className="grid grid-cols-3 gap-6">
     {
       data.map((product, index) => <GadCard key = { index }  product = {product} />)
     }
