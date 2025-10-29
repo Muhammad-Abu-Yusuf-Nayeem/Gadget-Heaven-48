@@ -2,9 +2,9 @@
   {
     "product_id": "IPH-001",
     "product_title": "iPhone 16 Pro Max",
-    "product_image": "https://example.com/images/iphone16promax.jpg",
+    "product_image": "https://i.ibb.co.com/PvT1Mxtp/i-Phone-16-Pro-Max.png",
     "category": "Smartphone",
-    "price": 159000,
+    "price": 1590,
     "description": "The iPhone 16 Pro Max redefines power and design with the A18 Pro chip, titanium body, and an advanced triple-camera system for professional photography.",
     "specification": [
       "Display: 6.9-inch Super Retina XDR (120Hz)",
@@ -19,13 +19,18 @@
     ],
     "availability": true,
     "rating": 4.9,
-    "color_options": ["Natural Titanium", "Black Titanium", "White Titanium", "Desert Gold"],
+    "color_options": [
+      "Natural Titanium",
+      "Black Titanium",
+      "White Titanium",
+      "Desert Gold"
+    ],
     "warranty": "1 Year Apple Warranty"
   },
   {
     "product_id": "IPH-002",
     "product_title": "iPhone 16 Pro",
-    "product_image": "https://example.com/images/iphone16pro.jpg",
+    "product_image": "https://i.ibb.co.com/Dg9Y5rkx/i-Phone-16-Pro.png",
     "category": "Smartphone",
     "price": 1399,
     "description": "Compact yet powerful, iPhone 16 Pro packs the same A18 Pro chip and triple-camera array in a smaller titanium frame.",
@@ -47,7 +52,7 @@
   {
     "product_id": "IPH-003",
     "product_title": "iPhone 16",
-    "product_image": "https://example.com/images/iphone16.jpg",
+    "product_image": "https://i.ibb.co.com/nNKZTS6M/i-Phone-16.png",
     "category": "Smartphone",
     "price": 1099,
     "description": "iPhone 16 delivers flagship performance in a sleek aluminum design with the powerful A17 Bionic chip.",
@@ -69,7 +74,7 @@
   {
     "product_id": "IPH-004",
     "product_title": "iPhone 15 Pro Max",
-    "product_image": "https://example.com/images/iphone15promax.jpg",
+    "product_image": "https://i.ibb.co.com/Zp83n7cB/i-Phone-15-Pro-Max.png",
     "category": "Smartphone",
     "price": 1399,
     "description": "iPhone 15 Pro Max introduces the A17 Pro chip with pro-level gaming performance and the first 5x optical zoom on iPhone.",
@@ -91,7 +96,7 @@
   {
     "product_id": "IPH-005",
     "product_title": "iPhone 15",
-    "product_image": "https://example.com/images/iphone15.jpg",
+    "product_image": "https://i.ibb.co.com/VW3kz9CM/i-Phone-15.png",
     "category": "Smartphone",
     "price": 899,
     "description": "iPhone 15 delivers great performance with A16 Bionic chip, Dynamic Island, and advanced dual-camera system.",
@@ -112,8 +117,8 @@
   },
   {
     "product_id": "IPH-006",
-    "product_title": "iPhone SE (3rd Generation)",
-    "product_image": "https://example.com/images/iphonese3.jpg",
+    "product_title": "iPhone SE",
+    "product_image": "https://i.ibb.co.com/RGSGVBhP/i-Phone-SE.jpg",
     "category": "Smartphone",
     "price": 499,
     "description": "Compact and powerful, iPhone SE (3rd Gen) offers A15 Bionic performance and 5G speed at an affordable price.",
@@ -135,8 +140,8 @@
 
   {
     "product_id": "LAP-001",
-    "product_title": "MacBook Pro 16-inch (M3 Max)",
-    "product_image": "https://example.com/images/macbookpro16m3max.jpg",
+    "product_title": "MacBook Pro",
+    "product_image": "https://i.ibb.co.com/GvsRVPfb/Mac-Book-Pro-16-inch-M3-Max.webp",
     "category": "Laptop",
     "price": 3499,
     "description": "The MacBook Pro 16-inch with M3 Max redefines professional performance with a 16-core CPU, 40-core GPU, and a stunning Liquid Retina XDR display.",
@@ -158,7 +163,7 @@
   {
     "product_id": "LAP-002",
     "product_title": "Dell XPS 15 (2025)",
-    "product_image": "https://example.com/images/dellxps15.jpg",
+    "product_image": "https://i.ibb.co.com/p6bQh29c/Dell-XPS-15-2025.jpg",
     "category": "Laptop",
     "price": 2299,
     "description": "The Dell XPS 15 blends power and design, featuring a 14th Gen Intel Core i9 processor and RTX 4070 graphics for creators and professionals.",
@@ -179,8 +184,8 @@
   },
   {
     "product_id": "LAP-003",
-    "product_title": "ASUS ROG Zephyrus G16 (2025)",
-    "product_image": "https://example.com/images/asusrogzephyrusg16.jpg",
+    "product_title": "ASUS ROG G16 ",
+    "product_image": "https://i.ibb.co.com/kgDsTJWw/ASUS-ROG-Zephyrus-G16-2025.jpg",
     "category": "Laptop",
     "price": 1999,
     "description": "The ROG Zephyrus G16 is a gaming powerhouse with Intel Core i9, RTX 4080, and a 240Hz QHD+ display — designed for both gamers and creators.",
@@ -201,8 +206,8 @@
   },
   {
     "product_id": "LAP-004",
-    "product_title": "HP Spectre x360 14 (2025)",
-    "product_image": "https://example.com/images/hpspectrex36014.jpg",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/7NZz1DkS/HP-Spectre-x360-14.jpg",
     "category": "Laptop",
     "price": 1599,
     "description": "The HP Spectre x360 14 combines performance and flexibility with a 2-in-1 OLED touchscreen, ideal for creators and professionals on the move.",
@@ -223,8 +228,8 @@
   },
   {
     "product_id": "LAP-005",
-    "product_title": "Lenovo ThinkPad X1 Carbon Gen 12",
-    "product_image": "https://example.com/images/thinkpadx1carbon12.jpg",
+    "product_title": "Lenovo ThinkPad X1",
+    "product_image": "https://i.ibb.co.com/215C5hRR/Lenovo-Think-Pad-X1-Carbon-Gen-12.jpg",
     "category": "Laptop",
     "price": 1899,
     "description": "ThinkPad X1 Carbon Gen 12 delivers business-class durability and performance with Intel Core Ultra processors and a featherlight carbon-fiber chassis.",
@@ -245,8 +250,8 @@
   },
   {
     "product_id": "LAP-006",
-    "product_title": "Acer Aspire 5 (Ryzen 7 7730U)",
-    "product_image": "https://example.com/images/aceraspire5.jpg",
+    "product_title": "Acer Aspire 5",
+    "product_image": "https://i.ibb.co.com/V082y7c9/Acer-Aspire-5-Ryzen-7-7730-U.png",
     "category": "Laptop",
     "price": 749,
     "description": "Acer Aspire 5 offers solid everyday performance with AMD Ryzen 7, ample storage, and a sleek aluminum chassis at a budget-friendly price.",
@@ -266,12 +271,10 @@
     "warranty": "1 Year Local Warranty"
   },
 
-
-
   {
     "product_id": "SW-001",
     "product_title": "Apple Watch Ultra 2",
-    "product_image": "https://example.com/images/applewatchultra2.jpg",
+    "product_image": "https://i.ibb.co.com/67RxD79R/Apple-Watch-Ultra-2.png",
     "category": "Smartwatch",
     "price": 799,
     "description": "Engineered for endurance, Apple Watch Ultra 2 features a titanium case, the brightest display yet, and precision dual-frequency GPS for extreme adventures.",
@@ -287,13 +290,17 @@
     ],
     "availability": true,
     "rating": 4.9,
-    "color_options": ["Natural Titanium", "Ocean Band Blue", "Trail Loop Orange"],
+    "color_options": [
+      "Natural Titanium",
+      "Ocean Band Blue",
+      "Trail Loop Orange"
+    ],
     "warranty": "1 Year Apple Warranty"
   },
   {
     "product_id": "SW-002",
-    "product_title": "Samsung Galaxy Watch 7 Ultra",
-    "product_image": "https://example.com/images/galaxywatch7ultra.jpg",
+    "product_title": "Samsung Watch 7 Ultra",
+    "product_image": "https://i.ibb.co.com/20YMtVdW/Samsung-Galaxy-Watch-7-Ultra.jpg",
     "category": "Smartwatch",
     "price": 699,
     "description": "Galaxy Watch 7 Ultra combines durability with advanced AI health tracking and a vibrant AMOLED display for fitness and productivity.",
@@ -315,7 +322,7 @@
   {
     "product_id": "SW-003",
     "product_title": "Google Pixel Watch 2",
-    "product_image": "https://example.com/images/pixelwatch2.jpg",
+    "product_image": "https://i.ibb.co.com/gb0kc7LJ/Google-Pixel-Watch-2.jpg",
     "category": "Smartwatch",
     "price": 399,
     "description": "Pixel Watch 2 enhances wellness tracking with Fitbit integration, stress tracking, and adaptive battery performance powered by Wear OS 4.",
@@ -336,8 +343,8 @@
   },
   {
     "product_id": "SW-004",
-    "product_title": "Garmin Fenix 8 Sapphire Solar",
-    "product_image": "https://example.com/images/garminfenix8.jpg",
+    "product_title": "Garmin Fenix 8",
+    "product_image": "https://i.ibb.co.com/Xxj8tYZw/Garmin-Fenix-8-Sapphire-Solar.png",
     "category": "Smartwatch",
     "price": 999,
     "description": "Built for explorers, Garmin Fenix 8 Sapphire Solar features multi-band GPS, solar charging, and topographic maps in a rugged titanium frame.",
@@ -358,7 +365,7 @@
   {
     "product_id": "SW-005",
     "product_title": "Amazfit Balance",
-    "product_image": "https://example.com/images/amazfitbalance.jpg",
+    "product_image": "https://i.ibb.co.com/cc8JQCpy/Amazfit-Balance.jpg",
     "category": "Smartwatch",
     "price": 249,
     "description": "Amazfit Balance delivers comprehensive health insights, dual-band GPS, and Alexa built-in, all in a lightweight aluminum body.",
@@ -379,7 +386,7 @@
   {
     "product_id": "SW-006",
     "product_title": "Fitbit Versa 5",
-    "product_image": "https://example.com/images/fitbitversa5.jpg",
+    "product_image": "https://i.ibb.co.com/Y7vsyWxx/Fitbit-Versa-5.jpg",
     "category": "Smartwatch",
     "price": 229,
     "description": "Fitbit Versa 5 offers all-day activity tracking, sleep monitoring, and voice assistant support with a lightweight and comfortable design.",
@@ -398,11 +405,10 @@
     "warranty": "1 Year Fitbit Warranty"
   },
 
-
   {
     "product_id": "ACC-001",
-    "product_title": "Apple AirPods Pro (2nd Gen)",
-    "product_image": "https://example.com/images/airpodspro2.jpg",
+    "product_title": "Apple AirPods Pro",
+    "product_image": "https://i.ibb.co.com/j9DwwMn2/Apple-Air-Pods-Pro-2nd-Gen.png",
     "category": "Accessories",
     "price": 249,
     "description": "Active Noise Cancellation and adaptive transparency meet spatial audio with precision tracking for immersive sound.",
@@ -420,8 +426,8 @@
   },
   {
     "product_id": "ACC-002",
-    "product_title": "Samsung 45W Super Fast Charger",
-    "product_image": "https://example.com/images/samsung45wcharger.jpg",
+    "product_title": "Samsung 45W Charger",
+    "product_image": "https://i.ibb.co.com/GvZmjvbq/Samsung-45-W-Super-Fast-Charger.png",
     "category": "Accessories",
     "price": 59,
     "description": "Charge your Samsung devices up to 50% in just 20 minutes with USB-C PD 3.0 and PPS technology.",
@@ -438,8 +444,8 @@
   },
   {
     "product_id": "ACC-003",
-    "product_title": "Logitech MX Master 3S Wireless Mouse",
-    "product_image": "https://example.com/images/logitechmxmaster3s.jpg",
+    "product_title": "Logitech MX Master",
+    "product_image": "https://i.ibb.co.com/QRTXHQJ/Logitech-MX-Master-3-S-Wireless-Mouse.jpg",
     "category": "Accessories",
     "price": 119,
     "description": "Ergonomic wireless mouse with ultra-quiet clicks, MagSpeed scroll, and multi-device connectivity via Bluetooth or USB receiver.",
@@ -456,8 +462,8 @@
   },
   {
     "product_id": "ACC-004",
-    "product_title": "Anker PowerCore 10000mAh Portable Charger",
-    "product_image": "https://example.com/images/ankerpowercore10000.jpg",
+    "product_title": "Anker Portable Charger",
+    "product_image": "https://i.ibb.co.com/zHBQvw8B/Anker-Power-Core-10000m-Ah-Portable-Charger.jpg",
     "category": "Accessories",
     "price": 39,
     "description": "Compact yet powerful 10000mAh power bank for smartphones and tablets with Anker’s PowerIQ fast-charging technology.",
@@ -476,7 +482,7 @@
   {
     "product_id": "ACC-005",
     "product_title": "Apple MagSafe Charger",
-    "product_image": "https://example.com/images/magsafecharger.jpg",
+    "product_image": "https://i.ibb.co.com/6cr4sjW3/Apple-Mag-Safe-Charger.webp",
     "category": "Accessories",
     "price": 49,
     "description": "Perfectly aligned wireless charging for iPhone and AirPods with MagSafe support, offering up to 15W of power.",
@@ -493,8 +499,8 @@
   },
   {
     "product_id": "ACC-006",
-    "product_title": "Sony WH-1000XM5 Wireless Headphones",
-    "product_image": "https://example.com/images/sonywh1000xm5.jpg",
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://i.ibb.co.com/LdV2Ccs2/Sony-WH-1000-XM5-Wireless-Headphones.jpg",
     "category": "Accessories",
     "price": 399,
     "description": "Industry-leading noise cancellation, adaptive sound control, and up to 30 hours of battery life for premium audio experience.",
@@ -510,29 +516,11 @@
     "color_options": ["Black", "Silver", "Midnight Blue"],
     "warranty": "1 Year Sony Warranty"
   },
-  {
-    "product_id": "ACC-007",
-    "product_title": "Keychron K6 Wireless Mechanical Keyboard",
-    "product_image": "https://example.com/images/keychronk6.jpg",
-    "category": "Accessories",
-    "price": 89,
-    "description": "Compact 65% wireless mechanical keyboard with hot-swappable keys and RGB backlight for work and gaming.",
-    "specification": [
-      "Switches: Gateron Red / Brown / Blue",
-      "Connectivity: Bluetooth 5.1 & USB-C",
-      "Battery: 4000mAh (up to 72 hours)",
-      "Backlight: RGB Customizable",
-      "Layout: 68 Keys Compact"
-    ],
-    "availability": true,
-    "rating": 4.7,
-    "color_options": ["Black", "White"],
-    "warranty": "1 Year Limited Warranty"
-  },
+
   {
     "product_id": "ACC-008",
     "product_title": "Ugreen USB-C 6-in-1 Hub",
-    "product_image": "https://example.com/images/ugreenusbhub.jpg",
+    "product_image": "https://i.ibb.co.com/8LPS9p50/Ugreen-USB-C-6-in-1-Hub.webp",
     "category": "Accessories",
     "price": 59,
     "description": "Expand your laptop’s capabilities with HDMI, USB-A, SD/TF card readers, and fast data transfer up to 5Gbps.",
@@ -549,8 +537,8 @@
   },
   {
     "product_id": "ACC-009",
-    "product_title": "Belkin BoostCharge Pro 3-in-1 Wireless Charger",
-    "product_image": "https://example.com/images/belkinboostcharge3in1.jpg",
+    "product_title": "Belkin BoostCharge Pro",
+    "product_image": "https://i.ibb.co.com/twKwd8hQ/Belkin-Boost-Charge-Pro-3-in-1-Wireless-Charger.jpg",
     "category": "Accessories",
     "price": 149,
     "description": "Charge iPhone, Apple Watch, and AirPods simultaneously with this MagSafe-certified 3-in-1 charging stand.",
@@ -567,8 +555,8 @@
   },
   {
     "product_id": "ACC-010",
-    "product_title": "Sandisk Extreme Pro 1TB Portable SSD",
-    "product_image": "https://example.com/images/sandiskextremepro1tb.jpg",
+    "product_title": "Sandisk 1TB SSD",
+    "product_image": "https://i.ibb.co.com/ch11QFrh/Sandisk-Extreme-Pro-1-TB-Portable-SSD.jpg",
     "category": "Accessories",
     "price": 179,
     "description": "Blazing-fast portable SSD with USB 3.2 Gen 2x2 delivering up to 2000MB/s transfer speeds in a rugged aluminum chassis.",
