@@ -10,40 +10,40 @@ const ProductCategories = () => {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-base-200 min-h-full w-auto p-4">
+        <ul className="menu bg-base-200 min-h-full w-auto py-3 px-6">
           {/* Sidebar content here */}
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg mb-2">
+            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3 ">
               All Products
             </Link>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg mb-2">
+            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
               Laptops
             </Link>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg mb-2">
+            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
               Phones
             </Link>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg mb-2">
+            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
               Accessories
             </Link>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg mb-2">
+            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
               Smart Watches
             </Link>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg mb-2">
+            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
               MacBook
             </Link>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg mb-2">Iphone</Link>
+            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">Iphone</Link>
           </li>
         </ul>
       </div>
