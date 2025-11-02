@@ -1,9 +1,49 @@
-import React from "react";
-
+import HeaderCard from "./HeaderCard";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { useState } from "react";
+import CartDisplay from "./CartDisplay";
 const Dashboard = () => {
+  const [selectedTab, setSelectedTab] = useState("cart");
   return (
     <div>
-      <h1 className="text-4xl">Dashboard</h1>
+      <div className="pb-4 bg-[#9538E2] mb-auto">
+        <HeaderCard headerTitle={"Dashboard"} />
+      </div>
+      <div className="  border-white  gap-16  ">
+        <Tabs className=" ">
+          <TabList className="flex gap-4 justify-center bg-[#9538E2] pb-8">
+            {/* Cart Tab */}
+            <Tab
+              onClick={() => setSelectedTab("cart")}
+              className={`btn rounded-full text-xl px-16 py-6 ${
+                selectedTab === "cart"
+                  ? "bg-white text-[#8b27dd] font-bold border-white"
+                  : "btn-outline text-white border-white rounded-full"
+              }`}
+            >
+              Cart
+            </Tab>
+
+            {/* Wish List Tab */}
+            <Tab
+              onClick={() => setSelectedTab("wishlist")}
+              className={`btn rounded-full text-xl px-16 py-6 ${
+                selectedTab === "wishlist"
+                  ? "bg-white text-[#8b27dd] font-bold border-white"
+                  : "btn-outline text-white border-white rounded-full"
+              }`}
+            >
+              Wish List
+            </Tab>
+          </TabList>
+          <TabPanel className="bg-fuchsia-100  mt-8 p-6 mx-auto w-10/12">
+            <CartDisplay></CartDisplay>
+          </TabPanel>
+          <TabPanel>
+            <h2>Wish lists are here</h2>
+          </TabPanel>
+        </Tabs>
+      </div>
     </div>
   );
 };

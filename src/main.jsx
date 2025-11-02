@@ -2,6 +2,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import { ToastContainer } from "react-toastify";
 
 import Root from "./Components/Root.jsx";
 import ErrorPage from "./Components/ErrorPage.jsx";
@@ -41,5 +42,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <ToastContainer></ToastContainer>
   </React.StrictMode>
 );

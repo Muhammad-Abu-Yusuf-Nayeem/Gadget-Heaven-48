@@ -11,10 +11,13 @@ const Home = () => {
   return (
     <main className="pb-24 bg-base-200">
       <Banner></Banner>
-      <div className="flex px-38 align-center ">
-        <ProductCategories />
+      <div >
+        <h1 className="text-center text-5xl py-16 font-bold">Explore Cutting-Edge Gadgets</h1>
+        <div className="flex px-38 align-center ">
+          <ProductCategories />
 
-        <GadgetCards></GadgetCards>
+          <GadgetCards></GadgetCards>
+        </div>
       </div>
     </main>
   );

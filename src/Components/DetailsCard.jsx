@@ -3,14 +3,20 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { Link, NavLink } from "react-router-dom";
 import cartImg from "../assets/cart.png";
 import wishImg from "../assets/wish.png";
+import { addToLocalStorage } from "../utility/DB";
 
 const DetailsCard = () => {
+  const handleStorage = (id, storageName) => {
+    console.log("Add to cart clicked", id);
+    addToLocalStorage(id, storageName);
+  };
   const { productId } = useParams();
   const data = useLoaderData();
 
   const product = data.find((product) => product.product_id == productId);
   console.log(productId, { product });
   const {
+    product_id,
     product_title,
     product_image,
 
@@ -27,8 +33,10 @@ const DetailsCard = () => {
           <img src={product_image} className=" rounded-lg " />
         </div>
         <div className="space-y-2 col-span-3">
-          <h1 className="text-2xl  font-bold">{product_title}</h1>
-          <h2 className="font-bold text-xl text-gray-700">Price: ${price}</h2>
+          <h1 className="text-3xl  font-bold">{product_title}</h1>
+          <h2 className="font-semibold text-2xl text-gray-700">
+            Price: ${price}
+          </h2>
           <div
             className={`badge badge-secondary px-4 py-3.5 my-2 font-semibold ${
               availability
@@ -37,18 +45,18 @@ const DetailsCard = () => {
             }`}
           >{`${availability ? "In Stock" : " Out of Stock"}`}</div>
 
-          <p className="font-semibold text-gray-500">{description}</p>
+          <p className="font-semibold text-gray-500 text-lg">{description}</p>
           <p>
             <span className="font-bold">Specification: </span>
             {specification.map((data) => {
               const parts = data.split(":"); // split by colon
               return (
-                <p key={data} className="grid grid-cols-5 space-y-1">
+                <span key={data} className="grid grid-cols-5 space-y-1">
                   <span className="font-bold text-gray-500">{parts[0]}: </span>
-                  <span className="text-gray-500 font-regular col-span-4">
+                  <span className="text-gray-500 font-semibold col-span-4">
                     {parts[1]}
                   </span>{" "}
-                </p>
+                </span>
               );
             })}
           </p>
@@ -92,13 +100,19 @@ const DetailsCard = () => {
           </h4>
 
           <div className="flex  gap-6 pt-4">
-            <button className="btn btn-primary flex gap-3 rounded-full py-4 px-6 bg-[#9538E2] border-0 text-xl">
+            <button
+              onClick={() => handleStorage(product_id, "Cart")}
+              className="btn btn-primary flex gap-3 rounded-full py-4 px-6 bg-[#9538E2] border-0 text-xl"
+            >
               <span>Add To Card</span>{" "}
-              <img src={cartImg} alt="Cart" className="w-5 h-5" />
+              <img src={cartImg} alt="shoppingCart" className="w-5 h-5" />
             </button>
-            <Link className="bg-white p-3 rounded-full border border-gray-300  ">
+            <button
+              onClick={() => handleStorage(product_id, " Wishlist")}
+              className="bg-white p-3 rounded-full border border-gray-300 cursor-default "
+            >
               <img src={wishImg} alt="Cart" className="w-5 h-5" />
-            </Link>
+            </button>
           </div>
         </div>
       </div>
