@@ -101,7 +101,7 @@ const DetailsCard = () => {
 
           <div className="flex  gap-6 pt-4">
             <button
-              onClick={() => handleStorage(product_id, "Cart")}
+              onClick={() => handleStorage(product_id, "shoppingCart")}
               className="btn btn-primary flex gap-3 rounded-full py-4 px-6 bg-[#9538E2] border-0 text-xl"
             >
               <span>Add To Card</span>{" "}

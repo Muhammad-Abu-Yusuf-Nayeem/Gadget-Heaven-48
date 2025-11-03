@@ -13,7 +13,7 @@ const Home = () => {
       <Banner></Banner>
       <div >
         <h1 className="text-center text-5xl py-16 font-bold">Explore Cutting-Edge Gadgets</h1>
-        <div className="flex px-38 align-center ">
+        <div className="flex lg:px-38 px-10 align-center ">
           <ProductCategories />
 
           <GadgetCards></GadgetCards>

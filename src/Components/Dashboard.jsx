@@ -1,7 +1,7 @@
 import HeaderCard from "./HeaderCard";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { useState } from "react";
-import CartDisplay from "./CartDisplay";
+import Cart from "./Cart";
 const Dashboard = () => {
   const [selectedTab, setSelectedTab] = useState("cart");
   return (
@@ -36,8 +36,8 @@ const Dashboard = () => {
               Wish List
             </Tab>
           </TabList>
-          <TabPanel className="bg-fuchsia-100  mt-8 p-6 mx-auto w-10/12">
-            <CartDisplay></CartDisplay>
+          <TabPanel className="bg-base-300  mt-8 px-32 mx-auto ">
+            <Cart></Cart>
           </TabPanel>
           <TabPanel>
             <h2>Wish lists are here</h2>
