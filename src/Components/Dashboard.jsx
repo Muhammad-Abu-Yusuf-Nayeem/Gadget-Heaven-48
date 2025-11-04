@@ -2,6 +2,7 @@ import HeaderCard from "./HeaderCard";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { useState } from "react";
 import Cart from "./Cart";
+import WishList from "./WishList";
 const Dashboard = () => {
   const [selectedTab, setSelectedTab] = useState("cart");
   return (
@@ -39,8 +40,8 @@ const Dashboard = () => {
           <TabPanel className="bg-base-300  mt-8 px-32 mx-auto ">
             <Cart></Cart>
           </TabPanel>
-          <TabPanel>
-            <h2>Wish lists are here</h2>
+          <TabPanel className="bg-base-300  mt-8 px-32 mx-auto ">
+            <WishList></WishList>
           </TabPanel>
         </Tabs>
       </div>

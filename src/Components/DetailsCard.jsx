@@ -4,17 +4,22 @@ import { Link, NavLink } from "react-router-dom";
 import cartImg from "../assets/cart.png";
 import wishImg from "../assets/wish.png";
 import { addToLocalStorage } from "../utility/DB";
+import { useContext } from "react";
+import { TotalPriceContext } from "../utility/context";
 
 const DetailsCard = () => {
+  const [totalPrice, setTotalPrice] = useContext(TotalPriceContext);
   const handleStorage = (id, storageName) => {
-    console.log("Add to cart clicked", id);
-    addToLocalStorage(id, storageName);
+    //console.log("Add to cart clicked", id);
+    addToLocalStorage(id, storageName, totalPrice);
+    setTotalPrice(price + totalPrice);
+    console.log(totalPrice);
   };
   const { productId } = useParams();
   const data = useLoaderData();
 
   const product = data.find((product) => product.product_id == productId);
-  console.log(productId, { product });
+  //  console.log(productId, { product });
   const {
     product_id,
     product_title,
@@ -101,14 +106,14 @@ const DetailsCard = () => {
 
           <div className="flex  gap-6 pt-4">
             <button
-              onClick={() => handleStorage(product_id, "shoppingCart")}
+              onClick={() => handleStorage(product_id, "ShoppingCart")}
               className="btn btn-primary flex gap-3 rounded-full py-4 px-6 bg-[#9538E2] border-0 text-xl"
             >
               <span>Add To Card</span>{" "}
-              <img src={cartImg} alt="shoppingCart" className="w-5 h-5" />
+              <img src={cartImg} alt="ShoppingCart" className="w-5 h-5" />
             </button>
             <button
-              onClick={() => handleStorage(product_id, " Wishlist")}
+              onClick={() => handleStorage(product_id, "WishList")}
               className="bg-white p-3 rounded-full border border-gray-300 cursor-default "
             >
               <img src={wishImg} alt="Cart" className="w-5 h-5" />

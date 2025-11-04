@@ -1,22 +1,25 @@
-import { removeFromLocalStorage } from "../../utility/DB";
+import React from "react";
+import { removeFromLocalStorage, addToLocalStorage } from "../../utility/DB";
 import { useContext } from "react";
 import { TotalPriceContext } from "../../utility/context";
 
-const CartCard = ({ products, productId, setCartId }) => {
-  // ✅ Always call hooks first — no conditions before them
-  // const [totalPrice, setTotalPrice] = useContext(TotalPriceContext);
-
+const WishCard = ({ products, productId, setWishListId }) => {
+  const [totalPrice, setTotalPrice] = useContext(TotalPriceContext);
   const product = products.find((prod) => prod.product_id === productId);
-
-  // ✅ Still safe to skip rendering after hooks
   if (!product) return null;
 
   const { product_title, product_image, price, description } = product;
 
-  const [totalPrice, setTotalPrice] = useContext(TotalPriceContext);
+  const handleRemove = (id) => {
+    removeFromLocalStorage(id, "Wishlist");
+    // Update state after removal
+    setWishListId((prev) => prev.filter((item) => item !== id));
+  };
 
-  const handleCancelBtn = (id) => {
-    removeFromLocalStorage(id, "ShoppingCart", setCartId);
+  const handleAddToCart = (id) => {
+    setTotalPrice(price + totalPrice);
+    addToLocalStorage(id, "ShoppingCart", totalPrice);
+    console.log(totalPrice);
   };
 
   return (
@@ -28,6 +31,7 @@ const CartCard = ({ products, productId, setCartId }) => {
           alt={product_title}
         />
       </div>
+
       <div className="card col-span-4">
         <div className="card-body">
           <h2 className="card-title">{product_title}</h2>
@@ -36,12 +40,19 @@ const CartCard = ({ products, productId, setCartId }) => {
           </p>
           <h2 className="card-title text-gray-700 font-semibold">
             Price: ${price}
-           
           </h2>
+
+          <button
+            onClick={() => handleAddToCart(productId)}
+            className="btn btn-primary rounded-full py-4 px-6 bg-[#9538E2] border-0 text-xl w-44"
+          >
+            Add To Cart
+          </button>
         </div>
       </div>
+
       <button
-        onClick={() => handleCancelBtn(productId)}
+        onClick={() => handleRemove(productId)}
         className="btn btn-primary text-lg rounded-full mt-5 border-white shadow-none bg-white"
       >
         <img
@@ -54,4 +65,4 @@ const CartCard = ({ products, productId, setCartId }) => {
   );
 };
 
-export default CartCard;
+export default WishCard;

@@ -1,7 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const ProductCategories = () => {
+
+const ProductCategories = ({ setCategory }) => {
+  const handleCategoryClicked = (categoryName) => {
+    setCategory(categoryName);
+  }
   return (
     <div>
       <div className="border border-gray-200 rounded-lg shadow-xl h-auto p-2 mr-6 ">
@@ -13,37 +16,54 @@ const ProductCategories = () => {
         <ul className="menu bg-base-200 min-h-full w-auto py-3 px-6">
           {/* Sidebar content here */}
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3 ">
+            <button
+              onClick={() => handleCategoryClicked("")}
+              className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3 "
+            >
               All Products
-            </Link>
+            </button>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
+            <button
+              onClick={() => handleCategoryClicked("Laptop")}
+              className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3"
+            >
               Laptops
-            </Link>
+            </button>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
+            <button
+              onClick={() => handleCategoryClicked("Smartphone")}
+              className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3"
+            >
               Phones
-            </Link>
+            </button>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
+            <button
+              onClick={() => handleCategoryClicked("Accessories")}
+              className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3"
+            >
               Accessories
-            </Link>
+            </button>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
+            <button
+              onClick={() => handleCategoryClicked("Smartwatch")}
+              className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3"
+            >
               Smart Watches
-            </Link>
+            </button>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
+            <button className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
               MacBook
-            </Link>
+            </button>
           </li>
           <li>
-            <Link className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">Iphone</Link>
+            <button className="rounded-full bg-gray-200 px-6 py-2.5 text-lg my-3">
+              Iphone
+            </button>
           </li>
         </ul>
       </div>
