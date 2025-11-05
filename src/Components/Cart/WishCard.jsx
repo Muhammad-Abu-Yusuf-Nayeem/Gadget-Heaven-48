@@ -11,7 +11,7 @@ const WishCard = ({ products, productId, setWishListId }) => {
   const { product_title, product_image, price, description } = product;
 
   const handleRemove = (id) => {
-    removeFromLocalStorage(id, "Wishlist");
+    removeFromLocalStorage(id, "WishList");
     // Update state after removal
     setWishListId((prev) => prev.filter((item) => item !== id));
   };

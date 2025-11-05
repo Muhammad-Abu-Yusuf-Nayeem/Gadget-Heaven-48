@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const GadCard = ({ product }) => {
   const handleViewDetails = (id) => {
-  //  console.log("View details for product ID:", id);
+    //  console.log("View details for product ID:", id);
   };
 
   const { product_title, product_image, price, product_id } = product;

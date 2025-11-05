@@ -1,0 +1,71 @@
+Folder PATH listing for volume Windows
+Volume serial number is 12E0-EC01
+C:.
+|   .gitignore
+|   directory_tree.txt
+|   eslint.config.js
+|   generate_tree.bat
+|   index.html
+|   package-lock.json
+|   package.json
+|   README.md
+|   vite.config.js
+|   
++---dist
+|   |   index.html
+|   |   Products.json
+|   |   vite.svg
+|   |   _redirects
+|   |   
+|   \---assets
+|           banner-eTjIDEmb.jpg
+|           index-CfLcD5mj.css
+|           index-D2467QzJ.js
+|           
++---public
+|       Products.json
+|       vite.svg
+|       _redirects
+|       
+\---src
+    |   App.css
+    |   App.jsx
+    |   index.css
+    |   main.jsx
+    |   
+    +---assets
+    |       banner.jpg
+    |       cart.png
+    |       favicon-16x16.png
+    |       Group.png
+    |       react.svg
+    |       wish.png
+    |       
+    +---Components
+    |   |   Banner.jsx
+    |   |   Cart.jsx
+    |   |   Dashboard.jsx
+    |   |   DashBoardBtn.jsx
+    |   |   DetailsCard.jsx
+    |   |   ErrorPage.jsx
+    |   |   Footer.jsx
+    |   |   GadCard.jsx
+    |   |   GadgetCards.jsx
+    |   |   HeaderCard.jsx
+    |   |   Hero.jsx
+    |   |   Home.jsx
+    |   |   NavBar.jsx
+    |   |   ProDetails.jsx
+    |   |   ProductCategories.jsx
+    |   |   Root.jsx
+    |   |   Statistics.jsx
+    |   |   WishList.jsx
+    |   |   
+    |   \---Cart
+    |           CartCard.jsx
+    |           WishCard.jsx
+    |           
+    \---utility
+            context.js
+            DB.js
+            

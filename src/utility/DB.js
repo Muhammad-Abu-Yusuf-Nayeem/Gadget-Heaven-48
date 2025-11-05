@@ -4,13 +4,17 @@ import { toast } from "react-toastify";
 
 const addToLocalStorage = (id, storageName, totalPrice) => {
   let cart = getDataFromLS(storageName);
-  if (cart.includes(id)) {
+
+  // Defensive fix: ensure cart is always an array
+  if (!Array.isArray(cart)) cart = [];
+
+  if (totalPrice > 5000 && storageName === "ShoppingCart") {
+    toast(`Item exceeds the price limit in ${storageName}`);
+  } else if (cart.includes(id)) {
     toast(`Item already in ${storageName}`);
-  } else if (totalPrice > 5000) {
-    toast(`Item exeed the price ${storageName}`);
   } else {
     cart.push(id);
-    toast(`Item added in to ${storageName}`);
+    toast(`Item added to ${storageName}`);
     localStorage.setItem(storageName, JSON.stringify(cart));
   }
 };
@@ -39,4 +43,8 @@ const getDataFromLS = (storageName) => {
   return data ? JSON.parse(data) : [];
 };
 
-export { addToLocalStorage, getDataFromLS, removeFromLocalStorage };
+const resetCart = () => {
+  localStorage.setItem("ShoppingCart", JSON.stringify([]));
+};
+
+export { addToLocalStorage, getDataFromLS, removeFromLocalStorage, resetCart };

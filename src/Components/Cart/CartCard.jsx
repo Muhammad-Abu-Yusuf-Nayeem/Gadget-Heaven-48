@@ -17,6 +17,7 @@ const CartCard = ({ products, productId, setCartId }) => {
 
   const handleCancelBtn = (id) => {
     removeFromLocalStorage(id, "ShoppingCart", setCartId);
+    setTotalPrice(totalPrice - price);
   };
 
   return (

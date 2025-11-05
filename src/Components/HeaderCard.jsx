@@ -4,7 +4,7 @@ const HeaderCard = ({ headerTitle="Add title from HeaderCard.jsx" }) => {
   return (
     <div>
       <div className="flex">
-        <div className=" bg-[#9538E2] w-full mx-6 rounded-b-2xl mb-1">
+        <div className=" bg-[#9538E2] w-full  mb-10">
           <div className="hero-content text-center flex flex-col mx-auto relative">
             <div className="w-7/10 ">
               <h1 className="text-4xl font-bold  mx-auto text-white pt-6">
